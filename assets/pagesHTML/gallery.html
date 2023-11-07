@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gallary</title>
+    <link rel="stylesheet" href="../libraries/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/home.css">
+    <link rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+    <header class="nav-bar d-flex flex-row p-3 justify-content-between align-items-center gap-20">
+        <div id="menu-bar" class="fas fa-bars" onclick="showmenu()"></div>
+        <a href="" class="logo"><span>T</span>ravel<span> & </span><span>T</span>ourism</a>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="book.html" id="book">Book</a>
+            <a href="package.html" id="gallary">Package</a>
+            <a href="services.html" id="services">Services</a>
+            <a href="gallery.html" id="gallary">Gallary</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div class="icon">
+            <i class="fas fa-search" onclick="showbar()" id="search-btn"></i>
+            <i class="fas fa-user" onclick="showform()"></i>
+        </div>
+        <form action="" class="search-form">
+            <input type="search" id="search-inp" placeholder="what you are looking for ?">
+            <label for="search-inp" class="fas fa-search"></label>
+        </form>
+    </header>
+
+    <div class="login-form">
+        <i class="fas fa-times" id="form-close" onclick="hideForm()"></i>
+        <form action="">
+            <h3>Log in</h3>
+            <input type="email" class="box" placeholder="Enter your Email">
+            <input type="password" class="box" placeholder="Enter your password">
+            <input type="submit" class="box btn" value="login now">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password ? <a href="">click here</a></p>
+            <p>don't have an account? <a href="">sign up</a></p>
+        </form>
+    </div>
+
+    <section class="gallary" id="gallary">
+        <h1 class="heading fs-2">
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>a</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+        <div class="container">
+            <div class="box">
+                <img src="../images/pic1.jpg" alt="">
+                <div class="content">
+                    <h3>amazing place</h3>
+                    <p class="fs-2">A cruise in the most beautiful seas.</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="../images/pic2.jpg" alt="">
+                <div class="content">
+                    <h3>amazing place</h3>
+                    <p class="fs-2">Visit all the attractive archaeological sites with ancient history.</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="../images/pic3.jpg" alt="">
+                <div class="content">
+                    <h3>amazing place</h3>
+                    <p class="fs-2">Attractive waterfalls and stunning landscapes.</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="../images/pic4.jpg" alt="">
+                <div class="content">
+                    <h3>amazing place</h3>
+                    <p class="fs-2">Delicious, clean and affordable cafes and restaurants.</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="../images/pic5.jpg" alt="">
+                <div class="content">
+                    <h3>amazing place</h3>
+                    <p class="fs-2">Walking on suspension bridges is one of the most enjoyable activities.</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="../images/pic6.jpg" alt="">
+                <div class="content">
+                    <h3>amazing place</h3>
+                    <p class="fs-2">Delicious, clean and affordable cafes and restaurants.</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="../images/pic7.jpg" alt="">
+                <div class="content">
+                    <h3>amazing place</h3>
+                    <p class="fs-2">An interesting tour of Burj Al Arab.</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="../images/pic8.jpg" alt="">
+                <div class="content">
+                    <h3>amazing place</h3>
+                    <p class="fs-2">Delicious, clean and affordable cafes and restaurants.</p>
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+
+    
+</body>
+<script src="../libraries/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="../scripts/home.js"></script>
+
+
+</html>

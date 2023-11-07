@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel and Tourism </title>
+    <link rel="stylesheet" href="../libraries/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="nav-bar d-flex flex-row p-3 justify-content-between align-items-center gap-20">
+        <div id="menu-bar" class="fas fa-bars" onclick="showmenu()"></div>
+        <a href="" class="logo"><span>T</span>ravel<span> & </span><span>T</span>ourism</a>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="book.html" id="book">Book</a>
+            <a href="package.html" id="gallary">Package</a>
+            <a href="services.html" id="services">Services</a>
+            <a href="gallery.html" id="gallary">Gallary</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div class="icon">
+            <i class="fas fa-search" onclick="showbar()" id="search-btn"></i>
+            <i class="fas fa-user" onclick="showform()"></i>
+        </div>
+        <form action="" class="search-form">
+            <input type="search" id="search-inp" placeholder="what you are looking for ?">
+            <label for="search-inp" class="fas fa-search"></label>
+        </form>
+    </header>
+
+    <div class="login-form">
+        <i class="fas fa-times" id="form-close" onclick="hideForm()"></i>
+        <form action="">
+            <h3>Log in</h3>
+            <input type="email" class="box" placeholder="Enter your Email" required>
+            <input type="password" class="box" placeholder="Enter your password" required>
+            <input type="submit" class="box btn" value="login now">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password ? <a href="">click here</a></p>
+            <p>don't have an account? <a href="">sign up</a></p>
+        </form>
+    </div>
+
+    <section class="contact" id="contact">
+        <h1 class="heading fs-2">
+            <span>C</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+        <div class="row">
+            <form action="" onsubmit="sendmsg()"  reset()  return false>
+                <div class="input">
+                    <input type="text" placeholder="name" required id="name">
+                    <input type="email" placeholder="email" required id="email">
+                </div>
+                <div class="input">
+                    <input type="number" placeholder="number" required id="number">
+                    <input type="text" placeholder="subject" required id="subject">
+                </div>
+                <textarea name="" id="msg" cols="30" rows="10" placeholder="message" required></textarea>
+                <input type="submit" class="btn fs-3">
+            </form>
+        </div>
+    </section>
+
+
+
+    <script>
+        function sendmsg(){
+            let number = "+963949623971"
+            let name = document.querySelector("#name")
+            let num = document.querySelector("#number")
+            let email = document.querySelector("#email")
+            let subject = document.querySelector("#subject")
+            
+
+            var url = "https://wa.me/" + number + "?text="
+            + "Name: " + name.value+ "%0a"
+                + "Email: " + email.value+ "%0a"
+                + "Number: " + num.value+ "%0a"
+                + "subject: " + subject.value+ "%0a"
+                window.alert("Message Sent Succesfully")
+                window.open(url , '_blank').focus()
+                
+        }
+        
+    </script>
+
+    
+</body>
+<script src="../libraries/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="../scripts/home.js"></script>
+
+
+</html>

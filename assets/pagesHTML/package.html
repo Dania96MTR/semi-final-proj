@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>packages</title>
+    <link rel="stylesheet" href="../libraries/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+
+<body>
+    <header class="nav-bar d-flex flex-row p-3 justify-content-between align-items-center gap-20">
+        <div id="menu-bar" class="fas fa-bars" onclick="showmenu()"></div>
+        <a href="" class="logo"><span>T</span>ravel<span> & </span><span>T</span>ourism</a>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="book.html" id="book">Book</a>
+            <a href="package.html" id="gallary">Package</a>
+            <a href="services.html" id="services">Services</a>
+            <a href="gallery.html" id="gallary">Gallary</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div class="icon">
+            <i class="fas fa-search" onclick="showbar()" id="search-btn"></i>
+            <i class="fas fa-user" onclick="showform()"></i>
+        </div>
+        <form action="" class="search-form">
+            <input type="search" id="search-inp" placeholder="what you are looking for ?">
+            <label for="search-inp" class="fas fa-search"></label>
+        </form>
+    </header>
+
+    <div class="login-form">
+        <i class="fas fa-times" id="form-close" onclick="hideForm()"></i>
+        <form action="">
+            <h3>Log in</h3>
+            <input type="email" class="box" placeholder="Enter your Email">
+            <input type="password" class="box" placeholder="Enter your password">
+            <input type="submit" class="box btn" value="login now">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password ? <a href="">click here</a></p>
+            <p>don't have an account? <a href="">sign up</a></p>
+        </form>
+    </div>
+
+    <section class="package mb-5" id="package">
+        <h1 class="heading fs-2">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+        </h1>
+
+
+        <div class="container position-relative">
+            <div class="box d-flex flex-column align-items-start">
+                <img src="../images/pic3.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Bali</h3>
+                    <p class="paragraph">Bali is the most popular Indonesian island known for its natural settings, scenic beaches, traditional culture, rich history, creativity,
+                            art and crafts, and the genuine warmth of the local people.</p>
+                            
+                    <button class="btn" onclick="readMore(this)">Read More</button>
+
+                </div>
+            </div>
+            <div class="box d-flex flex-column align-items-start">
+                <img src="../images/pic4.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Las Vegas</h3>
+                    <p class="paragraph">Las Vegas is known for its world-class entertainment, but those are just two things to do in a
+                        city filled with attractions. On the Strip, you
+                            can take a spin on the world's largest observation wheel, the High Roller, ride on a
+                            Venetian gondola or watch the iconic Fountains of Bellagio.
+                    </p>
+                    <button onclick="readMore(this)" class="btn">Read More</button>
+                </div>
+            </div>
+            <div class="box d-flex flex-column align-items-start">
+                <img src="../images/pic5.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> USA</h3>
+                    <p class="paragraph">In the United States, tourism is a large industry that serves millions of international and
+                        domestic tourists yearly. Foreigners visit the
+                            U.S. to see natural wonders, cities, historic landmarks, and entertainment venues. Americans
+                            seek similar attractions, as well as recreation and vacation areas.
+                         </p>
+                    <button  class="btn" onclick="readMore(this)">Read More</button>
+                </div>
+            </div>
+            <div class="box d-flex flex-column align-items-start">
+                <img src="../images/pic6.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> parise</h3>
+                    <p class="paragraph">Another source of Parisian pride and tourist interest is the capital's lively arts and culture
+                        scene with its plentiful museums. But first and foremost, it is the archetypal Louvre, a former royal palace turned into a museum
+                            exhibiting art ranging from prehistory to the 21st century, which attracts the most
+                            tourists.</p>
+                    <button onclick="readMore(this)" class="btn">Read More</button>
+                </div>
+            </div>
+            <div class="box d-flex flex-column align-items-start">
+                <img src="../images/pic7.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Dubai</h3>
+                    <p class="paragraph">With stunning architecture, fancy hotels, shopping festivals, majestic skyscrapers, glittering
+                        skylines, and giant shopping malls, Dubai is
+                            truly a paradise for scores of tourists from around the world.
+                        </p>
+                    <button onclick="readMore(this)" class="btn">Read More</button>
+                </div>
+            </div>
+            <div class="box d-flex flex-column align-items-start">
+                <img src="../images/pic8.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Italy</h3>
+                    <p class="paragraph">It is possibly one of the most sought-after destinations in the world when it comes to both quick
+                        holidays and long, slow vacations. It's also known for its many facets: the rich culture, the millenary history, the
+                            delicious cuisine and stunning and widely varied natural scenery.</p>
+                    <button class="btn" onclick="readMore(this)">Read More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+<script src="../libraries/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="../scripts/home.js"></script>
+
+
+</html>

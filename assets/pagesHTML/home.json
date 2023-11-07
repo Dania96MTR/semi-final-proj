@@ -1,0 +1,94 @@
+{
+    "Trips" :[
+        {
+            "id" : 1,
+            "title" : "New York",
+            "description" : "amazing trip",
+            "price" : 120 ,
+           "Arrival" : "20/11/2023",
+           "Leaving" : "28/11/2023" ,
+            "image" : "../images/new york.jpg"
+        },
+        {
+            "id" : 2,
+            "title" : "Bali",
+            "description" : "amazing trip",
+            "price" : 100 ,
+           "Arrival" : "14/11/2023",
+           "Leaving" : "20/11/2023",
+            "image" :"../images/bali.jpg"
+        },
+        {
+            "id" : 3,
+            "title" : "Turkey",
+            "description" : "amazing trip",
+            "price" : 160 ,
+           "Arrival" : "1/12/2023" ,
+           "Leaving" : "10/12/2023",
+            "image" :"../images/turkey.jpg"
+        },
+        {
+            "id" : 4,
+            "title" : "Egypt",
+            "description" : "amazing trip",
+            "price" :120 ,
+           "Arrival" : "15/12/2023" ,
+           "Leaving" : "20/12/2023",
+            "image" :"../images/egypt.jpg"
+        },
+        {
+            "id" : 5,
+            "title" : "France",
+            "description" : "amazing trip",
+            "price" :150 ,
+           "Arrival" : "7/12/2023",
+           "Leaving" : "15/12/2023" ,
+            "image" :"../images/france.jpg"
+        },
+        {
+            "id" : 6,
+            "title" : "Maldives Islands",
+            "description" : "amazing trip",
+            "price" : 170 ,
+           "Arrival" : "17/12/2023" ,
+           "Leaving" : "30/12/2023",
+            "image" :"../images/maldiv.jpg"
+        },
+        {
+            "id" : 7,
+            "title" : "Lebanon",
+            "description" : "amazing trip",
+            "price" : 80 ,
+           "Arrival" : "5/12/2023",
+           "Leaving" : "10/12/2023" ,
+            "image" :"../images/lebanon.jpg"
+        },
+        {
+            "id" : 8,
+            "title" : "Korea",
+            "description" : "amazing trip",
+            "price" : 120 ,
+           "Arrival" : "1/1/2024",
+           "Leaving" : "10/1/2024",
+            "image" :"../images/korea.jpg"
+        },
+        {
+            "id" : 9,
+            "title" : "Las Vegas",
+            "description" : "amazing trip",
+            "price" : 190 ,
+           "Arrival" : "15/12/2023",
+           "Leaving" : "25/12/2023",
+            "image" :"../images/las.jpg"
+        },
+        {
+            "id" : 10,
+            "title" : "Miami",
+            "description" : "amazing trip",
+            "price" : 120 ,
+           "Arrival" : "18/1/2024",
+           "Leaving" : "28/1/2024" ,
+            "image" :"../images/miami.jpg"
+        }
+    ]
+}
