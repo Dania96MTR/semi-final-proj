@@ -7,7 +7,7 @@
             "price" : 120 ,
            "Arrival" : "20/11/2023",
            "Leaving" : "28/11/2023" ,
-            "image" : "../images/new york.jpg"
+            "image" : "../semi-final-proj/assets/images/new york.jpg"
         },
         {
             "id" : 2,
@@ -16,7 +16,7 @@
             "price" : 100 ,
            "Arrival" : "14/11/2023",
            "Leaving" : "20/11/2023",
-            "image" :"../images/bali.jpg"
+            "image" :"../semi-final-proj/assets/images/bali.jpg"
         },
         {
             "id" : 3,
@@ -25,7 +25,7 @@
             "price" : 160 ,
            "Arrival" : "1/12/2023" ,
            "Leaving" : "10/12/2023",
-            "image" :"../images/turkey.jpg"
+            "image" :"../semi-final-proj/assets/images/turkey.jpg"
         },
         {
             "id" : 4,
@@ -34,7 +34,7 @@
             "price" :120 ,
            "Arrival" : "15/12/2023" ,
            "Leaving" : "20/12/2023",
-            "image" :"../images/egypt.jpg"
+            "image" :"../semi-final-proj/assets/images/egypt.jpg"
         },
         {
             "id" : 5,
@@ -43,7 +43,7 @@
             "price" :150 ,
            "Arrival" : "7/12/2023",
            "Leaving" : "15/12/2023" ,
-            "image" :"../images/france.jpg"
+            "image" :"../semi-final-proj/assets/images/france.jpg"
         },
         {
             "id" : 6,
@@ -52,7 +52,7 @@
             "price" : 170 ,
            "Arrival" : "17/12/2023" ,
            "Leaving" : "30/12/2023",
-            "image" :"../images/maldiv.jpg"
+            "image" :"../semi-final-proj/assets/images/maldiv.jpg"
         },
         {
             "id" : 7,
@@ -61,7 +61,7 @@
             "price" : 80 ,
            "Arrival" : "5/12/2023",
            "Leaving" : "10/12/2023" ,
-            "image" :"../images/lebanon.jpg"
+            "image" :"../semi-final-proj/assets/images/lebanon.jpg"
         },
         {
             "id" : 8,
@@ -70,7 +70,7 @@
             "price" : 120 ,
            "Arrival" : "1/1/2024",
            "Leaving" : "10/1/2024",
-            "image" :"../images/korea.jpg"
+            "image" :"../semi-final-proj/assets/images/korea.jpg"
         },
         {
             "id" : 9,
@@ -79,7 +79,7 @@
             "price" : 190 ,
            "Arrival" : "15/12/2023",
            "Leaving" : "25/12/2023",
-            "image" :"../images/las.jpg"
+            "image" :"../semi-final-proj/assets/images/las.jpg"
         },
         {
             "id" : 10,
@@ -88,7 +88,7 @@
             "price" : 120 ,
            "Arrival" : "18/1/2024",
            "Leaving" : "28/1/2024" ,
-            "image" :"../images/miami.jpg"
+            "image" :"../semi-final-proj/assets/images/miami.jpg"
         }
     ]
 }
